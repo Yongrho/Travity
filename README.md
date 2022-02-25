@@ -22,9 +22,11 @@ This application gives:
 Share source related to UI of this application.
  
 ### Screen Shots
+<p>
 <img width="150px" width="300px" src="./images/workout1.png" alt="workout1">
 <img width="150px" width="300px" src="./images/workout2.png" alt="workout2">
 <img width="150px" width="300px" src="./images/workout3.png" alt="workout3">
 <img width="150px" width="300px" src="./images/history.png" alt="history">
 <img width="150px" width="300px" src="./images/group.png" alt="group">
 <img width="150px" width="300px" src="./images/chat.png" alt="chat">
+<p>
