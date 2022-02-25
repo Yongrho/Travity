@@ -22,4 +22,4 @@ This application gives:
 Share source related to UI of this application.
  
 ### Screen Shots
-<img width="200px" width="400px" src="./images/workout1.png" alt="workout">
+<img width="150px" width="300px" src="./images/workout1.png" alt="workout">
