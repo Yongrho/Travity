@@ -28,5 +28,5 @@ Share source related to UI of this application.
 <img width="150px" width="300px" src="./images/workout3.png" alt="workout3">
 <img width="150px" width="300px" src="./images/history.png" alt="history">
 <img width="150px" width="300px" src="./images/group.png" alt="group">
-<img width="150px" width="280px" src="./images/chat.png" alt="chat">
+<img width="150px" width="260px" src="./images/chat.png" alt="chat">
 <p>
