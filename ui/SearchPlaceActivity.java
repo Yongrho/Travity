@@ -122,55 +122,6 @@ public class SearchPlaceActivity extends AppCompatActivity {
             }
         });
 
-/*
-        multiDexEnabled true
-        implementation 'com.google.android.libraries.places:places:1.1.0'
-        <string name="api_key">AIzaSyCr69G_Hryw9iN2dKOpYZlabMkLKEbSw6c</string>
-        <activity
-            android:name=".ui.SearchPlaceActivity"
-            android:label="Place"/>
-
-        if (savedInstanceState == null) {
-            Bundle extras = getIntent().getExtras();
-            if (extras != null) {
-                eventType = extras.getInt("eventType");
-                groupID = extras.getInt(GROUP_ID);
-            }
-        }
-
-        etSearch = findViewById(R.id.edittext_search);
-        arrayList = new ArrayList<String>();
-        Geocoder geoCoder = new Geocoder(getBaseContext(), Locale.getDefault());
-        try {
-            double latitude;
-            double longitude;
-            String addressLine;
-            int i = 0;
-
-            List<Address> address = geoCoder.getFromLocationName("Halifax", 10);
-            placesAdapter = new PlacesAdapter(getBaseContext(), address);
-
-            Log.v(TAG, "address.size(): " + String.valueOf(address.size()));
-            while (i < address.size()) {
-                latitude = address.get(i).getLatitude();
-                longitude = address.get(i).getLongitude();
-                addressLine = address.get(i).getAddressLine(0);
-                Log.v(TAG, "latitude: " + String.valueOf(latitude));
-                Log.v(TAG, "longitude: " + String.valueOf(longitude));
-                Log.v(TAG, "address line 1: " + address.get(0).getAddressLine(0));
-                Log.v(TAG, "address: " + address.toString());
-                // this example should be changed with db
-//                arrayList.add(addressLine);
-                i++;
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, android.R.id.text1, arrayList);
-
-*/
         placesAdapter = new PlacesAdapter(getBaseContext(), arrayList);
         lvGroups = (ListView) findViewById(R.id.listview);
 //        lvGroups.setAdapter(placesAdapter);
